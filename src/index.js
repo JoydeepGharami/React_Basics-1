@@ -12,6 +12,8 @@ import A from "./A";
 import UseRefEx from "./UseRefEx";
 import UseRef2 from "./UseRef2";
 import UseRef3 from "./UseRef3";
+import HOC from "./HOC";
+import RouterExample from "./RouterExample";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -30,7 +32,8 @@ root.render(
       <UseRefEx />
       <UseRef2 />
       <UseRef3 />
-      
+     <HOC/> 
+     <RouterExample/>
     </>
   </React.StrictMode>
 );
